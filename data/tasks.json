@@ -1,0 +1,30 @@
+[
+  {
+    "task_id": "TASK-001",
+    "opportunity_id": "OPP-001",
+    "description": "Send calendar invite for follow-up call on Tuesday, April 22, 2026, at 2 PM Pacific to Jane Smith and Mark Lee.",
+    "due_date": "2026-04-18",
+    "status": "open"
+  },
+  {
+    "task_id": "TASK-003",
+    "opportunity_id": "OPP-001",
+    "description": "Prepare to discuss security architecture and compliance in detail for Acme's security review team.",
+    "due_date": null,
+    "status": "open"
+  },
+  {
+    "task_id": "TASK-005",
+    "opportunity_id": "OPP-001",
+    "description": "Prepare to discuss collaboration benefits, integration with Revit, and partner adoption resources for Jane Smith.",
+    "due_date": null,
+    "status": "open"
+  },
+  {
+    "task_id": "TASK-007",
+    "opportunity_id": "OPP-001",
+    "description": "Be ready to potentially arrange a call with a security architect for Acme's team.",
+    "due_date": null,
+    "status": "open"
+  }
+]

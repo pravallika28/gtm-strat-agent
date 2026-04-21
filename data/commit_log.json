@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-04-21T15:21:04.073007",
+    "opportunity_id": "OPP-001",
+    "changes": {
+      "stage": "Technical Validation",
+      "next_step": "Send proposal, ROI model, onboarding plan, and security documentation by EOD April 18. Hold follow-up call on April 22 at 2 PM Pacific to review documents and discuss scheduling security architect call."
+    },
+    "tasks_added": [
+      "TASK-001",
+      "TASK-003",
+      "TASK-005",
+      "TASK-007"
+    ]
+  }
+]

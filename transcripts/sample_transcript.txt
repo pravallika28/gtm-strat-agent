@@ -1,0 +1,38 @@
+Date: 2026-04-15
+Participants: Seller A (Autodesk), Jane Smith (VP Design, Acme Design Group), Mark Lee (Procurement Manager, Acme Design Group)
+
+---
+
+Seller A: Thanks for making time today, Jane, Mark. I wanted to follow up on where things stand with the renewal and the expansion conversation we started last month.
+
+Jane Smith: Of course. We've been using AutoCAD and Revit for years and the teams are happy with both. The question is really about what comes next. We're starting to win more construction-phase contracts and the design-to-build handoff is getting painful.
+
+Seller A: That's exactly the kind of workflow Construction Cloud is designed to solve. Are you currently using any coordination tools on the construction side, or is it mostly email and exports?
+
+Jane Smith: Mostly exports and a lot of back-and-forth over email. We tried a competitor tool last year but it didn't integrate well with our Revit models, so the teams abandoned it.
+
+Mark Lee: From my side, the main question is cost. We're renewing AutoCAD for 40 seats and Revit for 15. If we're going to layer in something new, I need a clear picture of the total commitment.
+
+Seller A: Totally fair. I can put together a consolidated view of the renewal plus Construction Cloud so you see the full number in one place. On the ROI side — do you have a sense of how many hours per project are lost in that handoff process today?
+
+Jane Smith: Honestly it's significant. On our last two projects the coordination issues added maybe three to four weeks of rework. Our project margins took a hit.
+
+Seller A: That's a strong case for the business. I'll build out an ROI model using those numbers. One thing I do want to flag — for a deployment this size, your IT team will likely want to run a security review before signing. Have you looped them in yet?
+
+Mark Lee: Not yet. I can bring them in once we have a proposal in hand. They usually need two to three weeks.
+
+Jane Smith: We'd also want to see a rough implementation timeline. Our next major project kicks off in September and we'd want the teams trained before then.
+
+Seller A: That's very doable. I'll include an onboarding timeline in the proposal. Can we target getting the draft to you by end of this week?
+
+Mark Lee: That works. Friday is fine.
+
+Jane Smith: One more thing — we've also heard about Forma from a peer firm. Is that something we should be looking at alongside Construction Cloud, or is that a separate conversation?
+
+Seller A: Good question. Forma is more of a generative design and early-stage planning tool — it would complement what you're doing in Revit during concept phases. It's worth a separate demo but I wouldn't hold up the Construction Cloud conversation for it. Let's get the renewal and expansion sorted first.
+
+Jane Smith: Agreed. Let's see the proposal Friday and go from there.
+
+Seller A: Perfect. I'll follow up with the proposal, ROI model, and onboarding timeline by Friday. I'll also flag the security review requirement so Mark can plan accordingly.
+
+Mark Lee: Sounds good. Thanks.

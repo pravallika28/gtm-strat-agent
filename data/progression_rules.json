@@ -1,0 +1,68 @@
+[
+  {
+    "from_stage": "Prospecting",
+    "to_stage": "Discovery",
+    "requirements": [
+      "Customer pain point identified",
+      "Product fit confirmed",
+      "At least one key stakeholder engaged"
+    ],
+    "disqualifiers": [
+      "No budget available",
+      "No active project or initiative driving the purchase"
+    ]
+  },
+  {
+    "from_stage": "Discovery",
+    "to_stage": "Technical Validation",
+    "requirements": [
+      "ROI case or business justification established",
+      "Technical stakeholders identified",
+      "Security or IT requirements known",
+      "Implementation timeline discussed"
+    ],
+    "disqualifiers": [
+      "Champion not identified",
+      "Competitor shortlisted with stronger position"
+    ]
+  },
+  {
+    "from_stage": "Technical Validation",
+    "to_stage": "Proposal",
+    "requirements": [
+      "Technical validation or demo completed successfully",
+      "Procurement stakeholder confirmed",
+      "Scope and seat count agreed"
+    ],
+    "disqualifiers": [
+      "Technical validation failed or blocked",
+      "Security review rejected"
+    ]
+  },
+  {
+    "from_stage": "Proposal",
+    "to_stage": "Negotiation",
+    "requirements": [
+      "Proposal accepted in principle",
+      "Legal or procurement formally engaged",
+      "Decision timeline confirmed"
+    ],
+    "disqualifiers": [
+      "Proposal rejected outright",
+      "Budget frozen"
+    ]
+  },
+  {
+    "from_stage": "Negotiation",
+    "to_stage": "Closed Won",
+    "requirements": [
+      "Pricing agreed",
+      "Contract sent for signature",
+      "Verbal or written commitment received"
+    ],
+    "disqualifiers": [
+      "Deal lost to competitor",
+      "Project cancelled"
+    ]
+  }
+]

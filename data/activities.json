@@ -1,0 +1,86 @@
+[
+  {
+    "opportunity_id": "OPP-001",
+    "type": "meeting",
+    "date": "2026-04-10",
+    "summary": "Customer interested in expansion but pricing concerns remain."
+  },
+  {
+    "opportunity_id": "OPP-001",
+    "type": "email",
+    "date": "2026-04-12",
+    "summary": "Customer requested ROI justification and implementation timeline."
+  },
+  {
+    "opportunity_id": "OPP-001",
+    "type": "meeting",
+    "date": "2026-04-15",
+    "summary": "Discussed Construction Cloud fit for design-to-build handoff. Seller committed to send proposal, ROI model, and onboarding timeline by Friday. Security review flagged. Forma deferred to separate conversation."
+  },
+  {
+    "opportunity_id": "OPP-002",
+    "type": "email",
+    "date": "2026-04-05",
+    "summary": "Outreach sent to David Nguyen re: Civil 3D renewal approaching in September."
+  },
+  {
+    "opportunity_id": "OPP-002",
+    "type": "meeting",
+    "date": "2026-04-14",
+    "summary": "Initial call with BrightPath. David confirmed renewal intent but wants to explore InfraWorks for upcoming highway project. Pain point: disconnected data between design and field teams."
+  },
+  {
+    "opportunity_id": "OPP-003",
+    "type": "meeting",
+    "date": "2026-03-28",
+    "summary": "Priya Sharma expressed interest in Forma for concept-phase generative design. Budget conversations deferred to Tom Barnes."
+  },
+  {
+    "opportunity_id": "OPP-003",
+    "type": "email",
+    "date": "2026-04-08",
+    "summary": "Sent Forma overview deck. Tom Barnes asked for pricing comparison vs. current Revit-only setup."
+  },
+  {
+    "opportunity_id": "OPP-004",
+    "type": "meeting",
+    "date": "2026-04-01",
+    "summary": "Technical demo of Construction Cloud completed. Mike Torres satisfied with BIM Collaborate Pro features. Lisa Chen flagged security review requirement."
+  },
+  {
+    "opportunity_id": "OPP-004",
+    "type": "email",
+    "date": "2026-04-11",
+    "summary": "Security review documentation sent to IT team. Awaiting sign-off."
+  },
+  {
+    "opportunity_id": "OPP-005",
+    "type": "meeting",
+    "date": "2026-04-03",
+    "summary": "Anna Brooks confirmed VRED is top priority for the team. Proposal submitted for 5 seats."
+  },
+  {
+    "opportunity_id": "OPP-005",
+    "type": "email",
+    "date": "2026-04-15",
+    "summary": "Follow-up sent. James Wu said decision expected by end of April."
+  },
+  {
+    "opportunity_id": "OPP-006",
+    "type": "meeting",
+    "date": "2026-04-07",
+    "summary": "Contract redline received from Rachel Kim. Two open items: payment terms and data residency clause."
+  },
+  {
+    "opportunity_id": "OPP-006",
+    "type": "email",
+    "date": "2026-04-16",
+    "summary": "Legal team reviewing data residency clause. Paul Adeyemi expects resolution by end of week."
+  },
+  {
+    "opportunity_id": "OPP-001",
+    "type": "transcript_analysis",
+    "date": "2026-04-21",
+    "summary": "The call was a follow-up to discuss the detailed proposal, ROI model, and onboarding plan for the Construction Cloud expansion. Mark Lee raised concerns about data residency, third-party access, and security documentation, requesting a security whitepaper and compliance details, and potentially a call with a security architect. Jane Smith emphasized the importance of smooth collaboration for external partners and ease of adoption, especially for design review and clash detection. Seller A addressed these points by confirming the provision of comprehensive security documentation and detailing Construction Cloud's multi-disciplinary collaboration features, integration with Revit, and phased 6-8 week onboarding plan with tailored training and support for both internal and external teams. Both stakeholders agreed to review the forthcoming documents and scheduled a follow-up call for the following Tuesday."
+  }
+]

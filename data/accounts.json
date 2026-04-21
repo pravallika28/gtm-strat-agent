@@ -1,0 +1,80 @@
+[
+  {
+    "account_id": "ACC-001",
+    "account_name": "Acme Design Group",
+    "industry": "Architecture",
+    "installed_base": ["AutoCAD", "Revit"],
+    "health_score": 72,
+    "renewal_date": "2026-08-15",
+    "whitespace_products": ["Construction Cloud", "Forma"],
+    "stakeholders": [
+      { "name": "Jane Smith", "role": "VP Design" },
+      { "name": "Mark Lee", "role": "Procurement Manager" }
+    ]
+  },
+  {
+    "account_id": "ACC-002",
+    "account_name": "BrightPath Engineering",
+    "industry": "Civil Engineering",
+    "installed_base": ["AutoCAD", "Civil 3D"],
+    "health_score": 85,
+    "renewal_date": "2026-09-01",
+    "whitespace_products": ["InfraWorks", "ACC"],
+    "stakeholders": [
+      { "name": "David Nguyen", "role": "Director of Engineering" },
+      { "name": "Sara Patel", "role": "IT Manager" }
+    ]
+  },
+  {
+    "account_id": "ACC-003",
+    "account_name": "Meridian Architects",
+    "industry": "Architecture",
+    "installed_base": ["Revit"],
+    "health_score": 61,
+    "renewal_date": "2026-07-20",
+    "whitespace_products": ["AutoCAD", "Forma", "Construction Cloud"],
+    "stakeholders": [
+      { "name": "Priya Sharma", "role": "Principal Architect" },
+      { "name": "Tom Barnes", "role": "Finance Director" }
+    ]
+  },
+  {
+    "account_id": "ACC-004",
+    "account_name": "Cascade Construction",
+    "industry": "Construction",
+    "installed_base": ["AutoCAD"],
+    "health_score": 55,
+    "renewal_date": "2026-10-30",
+    "whitespace_products": ["Construction Cloud", "BIM Collaborate Pro"],
+    "stakeholders": [
+      { "name": "Mike Torres", "role": "VP Operations" },
+      { "name": "Lisa Chen", "role": "Procurement Lead" }
+    ]
+  },
+  {
+    "account_id": "ACC-005",
+    "account_name": "Vertex Design Studio",
+    "industry": "Interior Design",
+    "installed_base": ["AutoCAD", "3ds Max"],
+    "health_score": 90,
+    "renewal_date": "2026-12-01",
+    "whitespace_products": ["VRED", "Forma"],
+    "stakeholders": [
+      { "name": "Anna Brooks", "role": "Creative Director" },
+      { "name": "James Wu", "role": "Studio Manager" }
+    ]
+  },
+  {
+    "account_id": "ACC-006",
+    "account_name": "Summit Infrastructure",
+    "industry": "Infrastructure",
+    "installed_base": ["Civil 3D", "InfraWorks"],
+    "health_score": 68,
+    "renewal_date": "2026-11-15",
+    "whitespace_products": ["ACC", "Construction Cloud"],
+    "stakeholders": [
+      { "name": "Rachel Kim", "role": "CTO" },
+      { "name": "Paul Adeyemi", "role": "Contracts Manager" }
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "opportunity_id": "OPP-001",
+    "account_id": "ACC-001",
+    "name": "Acme Renewal Expansion",
+    "stage": "Technical Validation",
+    "amount": 120000,
+    "close_date": "2026-06-30",
+    "next_step": "Send proposal, ROI model, onboarding plan, and security documentation by EOD April 18. Hold follow-up call on April 22 at 2 PM Pacific to review documents and discuss scheduling security architect call.",
+    "owner": "Seller A",
+    "products": [
+      "AutoCAD",
+      "Construction Cloud"
+    ],
+    "forecast_category": "Pipeline"
+  },
+  {
+    "opportunity_id": "OPP-002",
+    "account_id": "ACC-002",
+    "name": "BrightPath Civil 3D Renewal",
+    "stage": "Prospecting",
+    "amount": 45000,
+    "close_date": "2026-09-15",
+    "next_step": "Schedule discovery call",
+    "owner": "Seller B",
+    "products": [
+      "Civil 3D"
+    ],
+    "forecast_category": "Pipeline"
+  },
+  {
+    "opportunity_id": "OPP-003",
+    "account_id": "ACC-003",
+    "name": "Meridian BIM Expansion",
+    "stage": "Discovery",
+    "amount": 78000,
+    "close_date": "2026-07-31",
+    "next_step": "Confirm technical stakeholders and run Forma demo",
+    "owner": "Seller A",
+    "products": [
+      "Revit",
+      "Forma"
+    ],
+    "forecast_category": "Pipeline"
+  },
+  {
+    "opportunity_id": "OPP-004",
+    "account_id": "ACC-004",
+    "name": "Cascade Construction Cloud New Logo",
+    "stage": "Technical Validation",
+    "amount": 95000,
+    "close_date": "2026-08-31",
+    "next_step": "Complete IT security review",
+    "owner": "Seller B",
+    "products": [
+      "Construction Cloud"
+    ],
+    "forecast_category": "Best Case"
+  },
+  {
+    "opportunity_id": "OPP-005",
+    "account_id": "ACC-005",
+    "name": "Vertex VRED Upsell",
+    "stage": "Proposal",
+    "amount": 32000,
+    "close_date": "2026-06-15",
+    "next_step": "Follow up on proposal sent last week",
+    "owner": "Seller A",
+    "products": [
+      "VRED"
+    ],
+    "forecast_category": "Commit"
+  },
+  {
+    "opportunity_id": "OPP-006",
+    "account_id": "ACC-006",
+    "name": "Summit ACC Expansion",
+    "stage": "Negotiation",
+    "amount": 150000,
+    "close_date": "2026-05-31",
+    "next_step": "Resolve final contract terms with legal",
+    "owner": "Seller B",
+    "products": [
+      "ACC",
+      "Construction Cloud"
+    ],
+    "forecast_category": "Commit"
+  }
+]
