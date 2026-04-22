@@ -121,7 +121,7 @@ if "proposal" in st.session_state:
     proposal = st.session_state["proposal"]
     evals = st.session_state.get("evals", [])
 
-    # Eval badges
+    # Rule-based eval badges
     for ev in evals:
         (st.success if ev["passed"] else st.warning)(
             f"{'✓' if ev['passed'] else '⚠'} {ev['check']}: {ev['message']}"

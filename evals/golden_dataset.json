@@ -1,0 +1,83 @@
+[
+  {
+    "id": "eval-001",
+    "description": "BrightPath discovery call — clear pain point, product fit, and stakeholder engagement. Should advance Prospecting → Discovery.",
+    "opportunity_id": "OPP-002",
+    "transcript": "Date: 2026-04-21\nParticipants: Seller B (Autodesk), David Nguyen (Director of Engineering, BrightPath Engineering), Sara Patel (IT Manager, BrightPath Engineering)\n\n---\n\nSeller B: David, Sara — thanks for making time. I wanted to follow up on the Civil 3D renewal and also explore what else might be useful for the highway project you mentioned.\n\nDavid Nguyen: Yes, good timing. The Civil 3D renewal is straightforward, we're happy with it. The bigger issue right now is the highway project. We're winning more of these large infrastructure contracts and the data hand-off between our design team and the field teams is a real bottleneck.\n\nSeller B: Can you tell me more about what that looks like day-to-day?\n\nDavid Nguyen: Sure. We produce detailed Civil 3D models, but when contractors need to use that data in the field they're basically re-entering it manually or working off exported PDFs. It causes errors and delays. Last project we had a two-week delay because of a misread on a grading plan.\n\nSeller B: That's exactly the problem InfraWorks is built to solve. It sits on top of Civil 3D and lets field teams access live model data without needing to know Civil 3D. Has your team looked at any connected construction tools before?\n\nDavid Nguyen: We looked at a couple of things but nothing integrated with Civil 3D natively. That's been the sticking point.\n\nSeller B: InfraWorks has a native Civil 3D connector — the model stays live. I'd like to set up a proper demo with your team. Sara, from an IT perspective, would there be any blockers to adding a cloud-connected platform?\n\nSara Patel: We'd need to understand the data hosting and security posture. We're on a government contract so there are compliance requirements.\n\nSeller B: Understood — I can get you our FedRAMP documentation. David, who else would need to be involved in a decision like this?\n\nDavid Nguyen: Myself, Sara, and probably our project director, Kevin Walsh. He controls the project budget.\n\nSeller B: Perfect. Can we schedule a 45-minute demo with all three of you? I'll send a calendar invite for next week.\n\nDavid Nguyen: Yes, Tuesday or Wednesday works for us.\n\nSeller B: I'll confirm by end of day. I'll also send over the FedRAMP docs and a quick InfraWorks overview deck ahead of the demo.",
+    "expected": {
+      "stage_should_advance": true,
+      "expected_stage": "Discovery",
+      "required_field_updates": ["stage", "next_step"],
+      "forbidden_field_updates": [],
+      "min_tasks": 2,
+      "required_commitment_keywords": ["demo", "FedRAMP"],
+      "forbidden_stakeholders": [],
+      "confidence_min": 0.7
+    }
+  },
+  {
+    "id": "eval-002",
+    "description": "Meridian check-in call — interest confirmed but no ROI case and no technical stakeholders. Should NOT advance Discovery → Technical Validation.",
+    "opportunity_id": "OPP-003",
+    "transcript": "Date: 2026-04-21\nParticipants: Seller A (Autodesk), Priya Sharma (Principal Architect, Meridian Architects)\n\n---\n\nSeller A: Priya, thanks for making time. I wanted to check in after sending the Forma overview deck last week.\n\nPriya Sharma: Yes, I had a chance to look at it. The generative design capabilities are genuinely interesting — especially for early massing studies.\n\nSeller A: Glad it landed. Have you had a chance to share it with Tom or talk through the commercial side yet?\n\nPriya Sharma: Not yet. Tom has been tied up with our audit. I'd say budget conversations are probably a few weeks away.\n\nSeller A: Understood. Do you have a sense of what a business case would need to look like for him?\n\nPriya Sharma: Honestly, I'm not sure. He'll want to see what we're getting for the extra spend on top of Revit. I don't have those numbers yet.\n\nSeller A: That's helpful to know. Would it make sense for me to put together a rough cost comparison — what Forma adds relative to the Revit-only workflow?\n\nPriya Sharma: That would help, yes. I think a simple one-pager would be enough to get the conversation started with Tom.\n\nSeller A: I'll pull that together. Is there a technical owner I should be looping in for questions about IT infrastructure or integrations?\n\nPriya Sharma: Not really at this stage. We'd cross that bridge once there's a budget signal.\n\nSeller A: Makes sense. I'll send the cost comparison this week and we can reconnect once Tom is available.\n\nPriya Sharma: Perfect, thanks.",
+    "expected": {
+      "stage_should_advance": false,
+      "expected_stage": null,
+      "required_field_updates": ["next_step"],
+      "forbidden_field_updates": ["stage"],
+      "min_tasks": 1,
+      "required_commitment_keywords": ["cost comparison"],
+      "forbidden_stakeholders": [],
+      "confidence_min": 0.55
+    }
+  },
+  {
+    "id": "eval-003",
+    "description": "Cascade post-security-review call — IT sign-off received, scope agreed, procurement confirmed. Should advance Technical Validation → Proposal.",
+    "opportunity_id": "OPP-004",
+    "transcript": "Date: 2026-04-21\nParticipants: Seller B (Autodesk), Mike Torres (VP Operations, Cascade Construction), Lisa Chen (Procurement Lead, Cascade Construction)\n\n---\n\nSeller B: Mike, Lisa — great news on the security review. I saw the sign-off come through this morning.\n\nMike Torres: Yes, IT came back clean. No blockers. The team was actually impressed with the FedRAMP documentation.\n\nSeller B: Glad to hear it. So we're in a position to move to a formal proposal now. Before I put that together — can we confirm the scope? We discussed 30 seats of Construction Cloud, is that still the number?\n\nMike Torres: Let's make it 25 to start. We want to run a pilot on the Riverside project before rolling out further.\n\nSeller B: 25 seats for the Riverside pilot — noted. And Lisa, you'll be the main contact for the commercial side?\n\nLisa Chen: Yes, all procurement goes through me. We'll need a formal quote with line items and payment terms.\n\nSeller B: I'll have that to you by Thursday. We're looking at a 12-month subscription to start?\n\nLisa Chen: Correct, 12 months. We might expand at renewal but let's start there.\n\nMike Torres: One more thing — can you include the onboarding timeline in the proposal? I need to show the project team what the ramp-up looks like before Riverside kicks off in July.\n\nSeller B: Absolutely. I'll include a 6-week onboarding plan with milestones. I'll send the full proposal package — quote, payment terms, and onboarding plan — by Thursday.\n\nLisa Chen: That works for us.",
+    "expected": {
+      "stage_should_advance": true,
+      "expected_stage": "Proposal",
+      "required_field_updates": ["stage", "next_step"],
+      "forbidden_field_updates": [],
+      "min_tasks": 1,
+      "required_commitment_keywords": ["proposal", "Thursday"],
+      "forbidden_stakeholders": [],
+      "confidence_min": 0.75
+    }
+  },
+  {
+    "id": "eval-004",
+    "description": "Hallucination test — Acme call with only Mark Lee present. Agent must not invent Jane Smith in stakeholder mentions or email.",
+    "opportunity_id": "OPP-001",
+    "transcript": "Date: 2026-04-21\nParticipants: Seller A (Autodesk), Mark Lee (Procurement Manager, Acme Design Group)\n\n---\n\nSeller A: Mark, thanks for getting on a quick call. I wanted to touch base on the commercial side before we meet with Jane's team next week.\n\nMark Lee: Sure. I reviewed the proposal you sent. The pricing is in the right range but I need to understand the payment terms better. Can we do quarterly instead of annual upfront?\n\nSeller A: I can check with our finance team on quarterly payments. No guarantees but I'll come back to you by Wednesday.\n\nMark Lee: Also, I still need the security documentation before I can get IT formally started on their review. Did that go out?\n\nSeller A: The security whitepaper went out yesterday — you should have it in your inbox. If there's anything missing let me know and I'll get it from our security team.\n\nMark Lee: I'll check. Once IT has what they need they should be able to turn around in two to three weeks.\n\nSeller A: Good. So the plan is: I'll confirm payment terms by Wednesday, IT runs their review, and then we're in good shape ahead of the full team call next week.\n\nMark Lee: That works for me.",
+    "expected": {
+      "stage_should_advance": false,
+      "expected_stage": null,
+      "required_field_updates": ["next_step"],
+      "forbidden_field_updates": ["stage"],
+      "min_tasks": 1,
+      "required_commitment_keywords": ["payment terms", "Wednesday"],
+      "forbidden_stakeholders": ["Jane Smith"],
+      "confidence_min": 0.6
+    }
+  },
+  {
+    "id": "eval-005",
+    "description": "Low-signal call — Vertex vague check-in, no decisions, customer non-committal. Should have low confidence and no stage advance.",
+    "opportunity_id": "OPP-005",
+    "transcript": "Date: 2026-04-21\nParticipants: Seller A (Autodesk), James Wu (Studio Manager, Vertex Design Studio)\n\n---\n\nSeller A: James, just wanted to check in on the VRED proposal we sent over. Any thoughts?\n\nJames Wu: We've had a look. The team is still discussing it internally.\n\nSeller A: Any questions I can help answer to move things along?\n\nJames Wu: Not right now. It's more of a timing thing — we've got a busy period coming up.\n\nSeller A: Understood. Is there a point of contact I should follow up with, or is it better to come through you?\n\nJames Wu: Come through me for now.\n\nSeller A: And is there a timeline you're working toward for a decision?\n\nJames Wu: Nothing firm. Maybe end of May, but I can't commit to that.\n\nSeller A: OK, I'll follow up in a couple of weeks then.\n\nJames Wu: That's fine.",
+    "expected": {
+      "stage_should_advance": false,
+      "expected_stage": null,
+      "required_field_updates": [],
+      "forbidden_field_updates": ["stage"],
+      "min_tasks": 1,
+      "required_commitment_keywords": [],
+      "forbidden_stakeholders": ["Anna Brooks"],
+      "confidence_min": 0.0,
+      "confidence_max": 0.55
+    }
+  }
+]

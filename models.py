@@ -90,6 +90,13 @@ class ProposedTask(BaseModel):
     due_date: Optional[str] = None
 
 
+class JudgeEval(BaseModel):
+    confidence: float        # calibrated 0.0–1.0 based on transcript evidence
+    grounding_score: float   # fraction of proposals directly supported by transcript text
+    hallucination_flag: bool # true if agent included facts/people not present in transcript
+    reasoning: str           # brief explanation of the scores
+
+
 class WorkerProposal(BaseModel):
     summary: str
     commitments: list[str]
